@@ -1,0 +1,16 @@
+{
+  "name": "exemplo",
+  "version": "1.0.0",
+  "description": "Repositório do projeto de testes de regressão visual com Cypress e Percy da mentoria da Talking About Testing.",
+  "scripts": {
+    "test": "percy exec -- cypress run",
+    "cypress": "cypress open"
+  },
+  "keywords": ["cypress", "percy"],
+  "author": "Walmyr Filho <wlsf82@gmail.com> (https://walmyr.dev)",
+  "license": "MIT",
+  "devDependencies": {
+    "@percy/cypress": "^2.3.2",
+    "cypress": "^5.3.0"
+  }
+}
